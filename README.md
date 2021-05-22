@@ -38,10 +38,10 @@ Create a sonarqubedb database
     create database sonarqubedb;
 Create the sonarqube DB user with a strongly encrypted password
 	  
-    create user sonarqube with encrypted password 'Naresh#240';
+    create user sonarqube with encrypted password 'Naresh#240;
 Next, grant all privileges to sonrqube user on sonarqubedb;
 	  
-    grant all privileges on database sonarqubedb to sonarqube
+    grant all privileges on database sonarqubedb to sonarqube;
 Exit the psql prompt using the following command
 	  
     \q
